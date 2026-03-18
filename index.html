@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siput Blockchain | Modern Decentralized Infrastructure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --blue-neon: #38bdf8; 
+            --bg-dark: #020617; 
+            --bg-card: #0f172a; 
+        }
+        body { background-color: var(--bg-dark); color: #f1f5f9; font-family: 'Inter', sans-serif; }
+        .border-siput { border: 1px solid rgba(56, 189, 248, 0.2); }
+        .text-neon-blue { color: var(--blue-neon); }
+        .bg-siput-card { background-color: var(--bg-card); }
+        .btn-siput { background-color: #0ea5e9; color: white; }
+        .btn-siput:hover { background-color: #0369a1; }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="p-6 flex justify-between items-center border-b border-slate-900 bg-slate-950/50 backdrop-blur-md sticky top-0 z-50">
+        <div class="flex items-center gap-2">
+            <span class="text-3xl">🐌</span>
+            <h1 class="text-2xl font-black tracking-tighter italic">SIPUT<span class="text-neon-blue">_CHAIN</span></h1>
+        </div>
+        <a href="https://github.com/shaquel-it/siput" class="btn-siput px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest">
+            GitHub Repo
+        </a>
+    </nav>
+
+    <section class="py-28 px-6 text-center">
+        <span class="text-8xl mb-8 block">🐌</span>
+        <h2 class="text-6xl md:text-8xl font-black mb-6 tracking-tighter italic">SPEED & <span class="text-neon-blue">SECURITY.</span></h2>
+        <p class="text-slate-400 text-xl max-w-2xl mx-auto mb-10 font-light">Infrastruktur blockchain berbasis Rust dengan arsitektur DAG untuk skalabilitas tanpa batas.</p>
+    </section>
+
+    <section class="py-20 px-6 max-w-5xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8">
+            
+            <div class="bg-siput-card border-siput p-10 rounded-3xl hover:bg-slate-800/50 transition duration-500">
+                <div class="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6 text-neon-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">eUTXO Engine</h3>
+                <p class="text-slate-400 leading-relaxed">Eksekusi transaksi paralel yang memungkinkan ribuan proses berjalan secara simultan tanpa hambatan antrean (bottleneck).</p>
+            </div>
+
+            <div class="bg-siput-card border-siput p-10 rounded-3xl hover:bg-slate-800/50 transition duration-500">
+                <div class="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6 text-neon-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A2 2 0 013 15.487V4.512a2 2 0 011.553-1.954L9 1m0 19l5.447-2.724A2 2 0 0016 15.487V4.512a2 2 0 00-1.553-1.954L9 1m0 19v-19"></path></svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">DAG Structure</h3>
+                <p class="text-slate-400 leading-relaxed">Pemanfaatan Directed Acyclic Graph (DAG) untuk memvalidasi transaksi dengan kecepatan tinggi dan konsumsi daya minimal.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="py-24 px-6 text-center border-t border-slate-900">
+        <h2 class="text-4xl font-black mb-8 italic">BUILD ON <span class="text-neon-blue">SIPUT.</span></h2>
+        <p class="text-slate-400 mb-12 max-w-xl mx-auto text-lg">Integrasikan aplikasi Anda ke jaringan desentralisasi melalui SDK resmi kami.</p>
+        
+        <div class="flex flex-col md:flex-row justify-center gap-6">
+            <div class="p-6 bg-slate-900/40 rounded-2xl border border-slate-800 w-full md:w-64">
+                <h4 class="font-bold text-white mb-2">SDK JAVA</h4>
+                <p class="text-xs text-slate-500 mb-4 font-mono">Mobile App Connection</p>
+                <a href="https://github.com/shaquel-it/siput" class="text-neon-blue text-sm font-bold hover:underline">Get Library →</a>
+            </div>
+            <div class="p-6 bg-slate-900/40 rounded-2xl border border-slate-800 w-full md:w-64">
+                <h4 class="font-bold text-white mb-2">SDK RUST</h4>
+                <p class="text-xs text-slate-500 mb-4 font-mono">Backend Core System</p>
+                <a href="https://github.com/shaquel-it/siput" class="text-neon-blue text-sm font-bold hover:underline">Get Library →</a>
+            </div>
+            <div class="p-6 bg-slate-900/40 rounded-2xl border border-slate-800 w-full md:w-64">
+                <h4 class="font-bold text-white mb-2">SDK PYTHON</h4>
+                <p class="text-xs text-slate-500 mb-4 font-mono">Automation & Scripts</p>
+                <a href="https://github.com/shaquel-it/siput" class="text-neon-blue text-sm font-bold hover:underline">Get Library →</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-16 text-center border-t border-slate-950">
+        <p class="text-slate-700 text-sm font-bold tracking-widest">SIPUT BLOCKCHAIN INFRASTRUCTURE &copy; 2026</p>
+        <p class="text-xs mt-3 text-slate-800 font-mono">Maintained by shaquel-it</p>
+    </footer>
+
+</body>
+                  </html>
+
